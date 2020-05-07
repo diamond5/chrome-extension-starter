@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name":"Extension Starter",
+    "description":"Boilerplate for chrome extension.",
+    "version":"1.0",
+
+    "browser_action": {
+        "default_icon":"enabled.png",
+        "default_popup":"index.html"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "options_page": "options.html",
+
+    "permissions": ["storage", "webRequest", "webRequestBlocking", "*://*/"]
+}
